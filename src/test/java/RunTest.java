@@ -18,11 +18,13 @@ public class RunTest {
 
     @Test
     public void driverTest(){
+
         driver.get("https://www.google.com/");
     }
 
     @After
     public void closeBrowser() {
+
         driver.quit();
     }
 }
