@@ -36,7 +36,6 @@ public class Activity1 {
         // find element in menu "Woman"
         WebElement menuWoman = driver.findElement(By.xpath("//a[@title='Women']"));
 
-
     }
 
     @AfterClass
