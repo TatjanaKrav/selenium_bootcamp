@@ -27,9 +27,9 @@ public class Chapter1Page extends BaseFunc {
     @FindBy(how = How.CLASS_NAME, using = "mainheading")
     private WebElement beginnersGuide;
 
-    public void setTextBox() {
+    public void setTextBox(String textToSend) {
         textBox.clear();
-        textBox.sendKeys("Apples and oranges");
+        textBox.sendKeys(textToSend);
     }
 
     public void getClickLinkLaunchlinText(){
