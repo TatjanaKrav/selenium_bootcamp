@@ -30,7 +30,8 @@ public class Sample2webElementActions {
 
         //Element - get attribute value
         WebElement elementAttribute = driver.findElement(By.id("id"));
-        String attributeText = elementAttribute.getAttribute("attribute name");
+        String attributeText = elementAttribute.getAttribute("value");
+
 
         //Element - get css text
         WebElement elementCss = driver.findElement(By.id("id"));

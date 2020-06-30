@@ -3,11 +3,13 @@ package classTests.day1.activities;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Activity2 {
-    WebDriver driver;
+    private WebDriver driver;
 
     @Before
     public void setDriver() {
@@ -21,7 +23,20 @@ public class Activity2 {
 
     @Test
     public void practiceWithWebElement() {
-
+        WebElement chapter1Element = driver.findElement(By.xpath("//a[text()='Chapter1']"));
+        chapter1Element.click();
+        WebElement textBox = driver.findElement(By.xpath("//div[@id='html5div']"));
+        textBox.clear();
+        textBox.sendKeys("Hi there");
+        WebElement link1 = driver.findElement(By.xpath("//div[@class='multiplewindow']"));
+        String textFromLink1 = link1.getText();
+        System.out.println(textFromLink1);
+        WebElement verifyButton = driver.findElement(By.xpath("//input[@id='verifybutton']"));
+        String verifyButtonAttribute = verifyButton.getAttribute("value");
+        System.out.println(verifyButtonAttribute);
+        WebElement mainHeading = driver.findElement(By.xpath("//div[@class='mainheading']"));
+        String cssTextHeading = mainHeading.getCssValue("color");
+        System.out.println(cssTextHeading);
         //find element "Chapter 1" and  click on it
         // clear text from text box
         //  and send text to same text box
