@@ -33,4 +33,9 @@ public class PageFactorySamplePage extends BaseFunc {
         //some code
     }
 
+    public void getElement(){
+        List<WebElements> list = driver.finElements(B)
+
+    }
+
 }
