@@ -37,7 +37,7 @@ public class Activity2 {
 
         //from element "Click this link to launch another window" print out text
         System.out.println(driver.findElement(By.id("multiplewindow")).getText());
-        System.out.println(driver.findElement(By.id("verifybutton")).getAttribute());
+        System.out.println(driver.findElement(By.id("verifybutton")).getAttribute(""));
         System.out.println(driver.findElement(By.className("mainheading")).getCssValue("colour"));
 
         //from "Verify button" get attribute ( any you like) and print out

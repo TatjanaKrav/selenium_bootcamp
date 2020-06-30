@@ -22,8 +22,8 @@ public class ChapterOneTest extends BaseWebTest {
         chapterPage.setTextBox("Hello World!!!");
 
         chapterPage.getTextOfWindowLink();
-        chapterPage.printAttributeVerifyButton();
-        chapterPage.printCssValueguide();
+        chapterPage.getAttributeOfVerifyButton();
+        chapterPage.getCssValueOfguide();
 
     }
 

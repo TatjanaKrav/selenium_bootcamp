@@ -33,11 +33,11 @@ public class ChapterOnePage extends BaseFunc {
     public void getTextOfWindowLink() {
         String text = windowLink.getText();
         System.out.println(text);
-
-    public void getAttributeOfVerifyButton(){
-         String value = verifyButton.getAttribute("value");
-         System.out.println(value);
-
+    }
+    public void getAttributeOfVerifyButton() {
+        String value = verifyButton.getAttribute("value");
+        System.out.println(value);
+    }
      public void getCssValueOfguide(){
          System.out.println(beginnersGuide.getCssValue("colour"));
 
