@@ -1,0 +1,106 @@
+package sef.ATestTask.FirstActivity;
+import java.util.*;
+import java.util.Map.Entry;
+
+public class FirstActivity {
+
+	public static void main(String[] args) {
+//	Map<Integer, Employee> employeemap = new HashMap<Integer, Employee>(); 
+//		
+//		List<Employee> listOfemployees = new ArrayList<Employee>();
+//		
+//		Employee e1 = new Employee("Tatjana", "Kravc", 33, 1, "Auditor", "Java", 2000);
+//		Employee e2 = new Employee("Niks", "Brigg", 25, 2, "Realtor", "House", 1500);
+//		Employee e3 = new Employee("Toms", "Darbin", 28, 3, "Programmer", "JavaC", 3000);
+//		Employee e4 = new Employee("Kate", "Matew", 26, 4, "Architect", "Palace", 25000);
+//		Employee e5 = new Employee("Gven", "Lorenc", 31, 5, "Chef", "Fast", 3500);
+//		Employee e6 = new Employee("Abbey", "Hatcher", 20, 6, "Designer", "Beauty", 1800);
+//		Employee e7 = new Employee("John", "Tailor", 35, 7, "Engeneer", "Create", 39000);
+//		
+////		listOfemployees.add(new Employee("Tatjana", "Kravcenko", 33, 1, "Auditor", "Java", 2000));
+////		listOfemployees.add(new Employee("Niks", "Brigg", 25, 2, "Realtor", "House", 1500));
+////		listOfemployees.add(new Employee("Toms", "Darbin", 28, 3, "Programmer", "JavaC", 3000));
+////		listOfemployees.add(new Employee("Kate", "Matew", 26, 4, "Architect", "Palace", 25000));
+////		listOfemployees.add(new Employee("Gven", "Lorenc", 31, 5, "Chef", "Fast", 3500));
+////		listOfemployees.add(new Employee("Abbey", "Hatcher", 20, 6, "Designer", "Beauty", 1800));
+////		listOfemployees.add(new Employee("John", "Tailor", 35, 7, "Engeneer", "Create", 39000));
+//		
+//		//System.out.println(listOfemployees);
+////		FirstActivity obj = new FirstActivity();
+////		obj.print(listOfemployees);
+////	}
+////		void print(List list)
+////		{
+////			//3 - Type code to print this list
+////			//Notice the order in which elements get printed.
+////			Iterator i = list.iterator();
+////			while(i.hasNext()) {
+////			System.out.println(i.next());
+////		}
+////		
+//		
+//		employeemap.put(e1.getEmpId(), e1);
+//		employeemap.put(e2.getEmpId(), e2);
+//		employeemap.put(e3.getEmpId(), e3);
+//		employeemap.put(e4.getEmpId(), e4);
+//		employeemap.put(e5.getEmpId(), e5);
+//		employeemap.put(e6.getEmpId(), e6);
+//		employeemap.put(e7.getEmpId(), e7);
+//		//TODO 1 Create collection of employee (more than 5) list or map
+//		
+////		Set<Map.Entry<Integer, Employee>> entries = employeemap.entrySet();
+////		for (Entry<Integer, Employee> entry : entries) {
+////			System.out.println(entry.getKey() + "==>");
+//		Iterator<Integer> iterator = employeemap.keySet().iterator(); //working
+//		while (iterator.hasNext()) {	//working
+//			Employee emp = employeemap.get(iterator.next());//working
+//			emp.display();//working
+			
+			Person ps = new Student();
+			ps.announce();
+			System.out.println("-----------------------------");
+			Student s = new Student();
+			s.announce();
+			
+		}
+		
+		
+		//System.out.println(e1.getSalary());
+	}
+	
+
+//		new FirstActivity().print(employeemap);
+//}
+//	void print(Map employeemap)	{
+//		Set keySet = employeemap.keySet();
+//		System.out.println("******************************");
+//		System.out.println("Key\tValue");
+//		Iterator it = keySet.iterator();
+//		while (it.hasNext())
+//		{
+//			Integer key = (Integer)it.next();
+//			System.out.println(key+"\t"+employeemap.get(key));
+//		}
+//		System.out.println("******************************");
+//	}
+	
+
+		//TODO 2 sort and this employees by salary (from min to max)
+		// TIP - google bubble sort
+		//		System.out.println() result
+
+		//TODO 3 create instance of a Student as a Person ->
+		
+		
+		// than ask him introduce()
+		// than make them Student
+		// than ask him introduce()
+
+		//TODO 4 Create method for full change of employee information
+		// for example some employee change his work
+
+
+
+
+
+	

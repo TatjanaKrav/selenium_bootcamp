@@ -1,0 +1,60 @@
+package sef.ATestTask.FirstActivity;
+import java.util.*;
+public class FirstActivity {
+
+	public static void main(String[] args) {
+		HashMap<Employee, String> employeemap = new HashMap<Employee, String>(); 
+		Employee e = new Employee();
+		//TODO 1 Create collection of employee (more than 5) list or map
+		e.setEmpId(1);
+		e.setFirstName("Tatjana");
+		e.setSecondName("Kravcenko");
+		e.setJobTitle("Auditor");
+		e.setCompanyName("Java");
+		e.setSalary(2000);
+		
+		employeemap.put(e, "employee1");
+		
+		System.out.println(employeemap);
+		
+//		map.put(e.setEmpId(1), e.setAge(33));
+//		map.put("2b", "Darja");
+//		map.put("3c", "Andrej");
+//		map.put("4d", "Michail");
+		//2 - Call print method to print the map passed as its parameter.
+		
+//		new FirstActivity().print(map);
+//	}
+//	void print(Map map)
+//	{
+//		//3 - Type code to print this map
+//		Set keySet = map.keySet();
+//		System.out.println("******************************");
+//		System.out.println("Key\tValue");
+//		Iterator it = keySet.iterator();
+//		while (it.hasNext())
+//		{
+//			String key = (String)it.next();
+//			System.out.println(key+"\t"+map.get(key));
+//		}
+//		System.out.println("******************************");
+//	}
+		//		System.out.println() result
+
+		//TODO 2 sort and this employees by salary (from min to max)
+		// TIP - google bubble sort
+		//		System.out.println() result
+
+		//TODO 3 create instance of a Student as a Person ->
+		// than ask him introduce()
+		// than make them Student
+		// than ask him introduce()
+
+		//TODO 4 Create method for full change of employee information
+		// for example some employee change his work
+
+
+	}
+
+}
+	
